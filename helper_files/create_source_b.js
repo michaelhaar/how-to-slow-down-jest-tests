@@ -1,5 +1,7 @@
 const fs = require('fs');
 
+const max = 100;
+
 function getNumberFunction(num) {
   return `
 function getNumber${num}() {
@@ -8,12 +10,12 @@ function getNumber${num}() {
 }
 
 let fileContent = '';
-for (let i = 1; i <= 100; i++) {
+for (let i = 1; i <= max; i++) {
   fileContent += getNumberFunction(i);
 }
 
 let sum = 'getNumber1()';
-for (let i = 2; i <= 100; i++) {
+for (let i = 2; i <= max; i++) {
   sum += ` + getNumber${i}()`;
 }
 
