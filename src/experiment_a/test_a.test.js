@@ -5,7 +5,7 @@ function sleep(time) {
   while (new Date().getTime() < stop + time) {}
 }
 
-it('should run 5sec', () => {
+it('should run 1sec', () => {
   sleep(1000);
 });
 
