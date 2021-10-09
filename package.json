@@ -1,0 +1,19 @@
+{
+  "name": "how-to-slow-down-jest-tests",
+  "version": "1.0.0",
+  "description": "demonstrates how to slow down jest unit tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jest",
+    "performance",
+    "slow"
+  ],
+  "author": "Michael Haar",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^27.2.5"
+  }
+}
