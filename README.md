@@ -16,6 +16,12 @@ make sure that tests are running properly
 npm run test
 ```
 
+clear cache
+
+```
+npm run test --clearCache
+```
+
 run tests in debug mode
 
 ```
