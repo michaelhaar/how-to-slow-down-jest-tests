@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test:debug": "node --inspect node_modules/.bin/jest --runInBand",
-    "test:debug:noCache": "node --inspect node_modules/.bin/jest --runInBand --no-cache"
+    "test:debug": "node --inspect-brk node_modules/.bin/jest --runInBand",
+    "test:debug:noCache": "node --inspect-brk node_modules/.bin/jest --runInBand --no-cache"
   },
   "keywords": [
     "jest",
